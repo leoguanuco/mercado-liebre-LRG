@@ -1,0 +1,168 @@
+html,
+body {
+  margin: 0;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.padding {
+  padding: 24px;
+}
+
+main {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+
+#ml-main-nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#ml-main-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.burger-menu {
+  text-align: center;
+  font-size: 24px;
+  width: 28px;
+  padding: 8px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.banner {
+  width: 100%;
+}
+
+/* Fonts & Texts */
+body {
+  font-family: "Roboto";
+  font-size: 12px;
+}
+
+.text-title {
+  font-size: 24px;
+}
+
+.text-price {
+  font-size: 18px;
+}
+
+.text-discount {
+  font-size: 16px;
+}
+
+.text-desc {
+  font-size: 16px;
+}
+
+/* Colors ====================  */
+
+.ml-yellow-text {
+  color: #eac926;
+}
+.ml-blue-text {
+  color: #03264c;
+}
+.ml-lb-text {
+  color: #1259c3;
+}
+.ml-dark-text {
+  color: #666;
+}
+.ml-light-text {
+  color: #ebebeb;
+}
+.ml-green-text {
+  color: #39b54a;
+}
+
+.ml-yellow-bg {
+  background-color: #eac926;
+}
+.ml-blue-bg {
+  background-color: #03264c;
+}
+.ml-lb-bg {
+  background-color: #1259c3;
+}
+.ml-dark-bg {
+  background-color: #666;
+}
+.ml-light-bg {
+  background-color: #ebebeb;
+}
+.ml-green-bg {
+  background-color: #39b54a;
+}
+
+main{
+  width: 90%;
+}
+
+article{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  margin: 10px 0px;
+}
+
+.product-description{
+  border: 1px solid ;
+  padding: 15px;
+  position: relative;
+}
+
+.product-delivery-icon{
+  display: block;
+  font-size: 16px;
+  padding: 6px 2px 2px 4px;
+  width: 30px;
+  height: 25px;
+  border: 1px solid #39b54a;
+  color: #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+}
+
+.lo-ultimo{
+  display: flex;
+  align-self: flex-end;
+}
+
+/* tablets */
+@media (min-width: 375px) {
+  section{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  article{
+    width: 48%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  article{
+    width: 23%;
+  }
+}
